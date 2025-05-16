@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto Esperança</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IMPACTO ESPERANÇA</h1>
+        <p>SEJA UMA LUZ NO GRANDE CONFLITO. VIVA A ENTREGA!</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Evento</h2>
+            <p>Falar de Jesus para outras pessoas é um privilégio e nos enche de satisfação. 
+                E existem diferentes formas de fazer isso: através das redes sociais, enviando mensagens de esperança, 
+                versos que animam o coração de quem recebe, uma palavra na hora certa ou simplesmente entregando um livro.</p>
+            <img src="imagem.jpg" alt="Imagem do evento">
+        </section>
+
+        <section id="informacoes">
+            <h2>Informações Importantes</h2>
+            <ul>
+                <li><strong>Data:</strong> 12 a 19 de abril de 2025</li>
+                <li><strong>Horário:</strong> 19h:30min</li>
+                <li><strong>Local:</strong> <a href="https://www.adventist.org/pt-br/encontre-uma-igreja/" 
+                    target="_blank">https://www.adventist.org/pt-br/encontre-uma-igreja/</a></li>
+                <li><strong>Livro:</strong> Grátis, peça o seu!</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Envie suas dúvidas para o nosso: <a href="https://api.whatsapp.com/send?phone=556182390006&text=Igreja%20Adventista" target="_blank"> whatsapp</a></p>
+        </section>
+
+	<button id="livro-btn">Pedir meu Livro</button>
+    </main>
+
+
+    <script>
+        // Comportamento (JavaScript)
+        document.getElementById("livro-btn").addEventListener("click", function() {
+            alert("Obrigado por se interessar! Você será redirecionado para a página de download.");
+            // Aqui você pode adicionar o link para a página de download.
+            window.location.href = "https://downloads.adventistas.org/pt/evangelismo/livros/livro-o-grande-conflito/";
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Igreja Adventista do Sétimo Dia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
